@@ -1,7 +1,7 @@
 # membuat module
 
-from module2 import tambah, kali, bagi
-from module2 import kurang as minus
+from math import tambah, kali, bagi
+from math import kurang as minus
 
 hasil_tambah = tambah(1,2,3)
 print(f'hasil tambah = {hasil_tambah}')
